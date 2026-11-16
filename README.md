@@ -32,7 +32,7 @@ The physical ESP8266 + IR sensor setup and the Node-RED telemetry dashboard:
 ### 3. Live Product Counter Dashboard – Overview
 ![Node-RED Product Counter Dashboard Overview](./nodered_dashboard1.png)
 
-### 4. Live Product Counter Dashboard – Metrics & Controls
+### 4. Live Product Counter Dashboard – Graph & Controls
 ![Node-RED Product Counter Dashboard Metrics](./nodered_dashboard2.png)
 
 ## Repository Structure
@@ -40,7 +40,7 @@ The physical ESP8266 + IR sensor setup and the Node-RED telemetry dashboard:
 * [hardware_prototype.jpg](./hardware_prototype.jpg) – Photo of the ESP8266 NodeMCU and IR sensor hardware prototype
 * [nodered_flow.png](./nodered_flow.png) – Screenshot of the Node-RED MQTT flow wiring
 * [nodered_dashboard1.png](./nodered_dashboard1.png) – Screenshot of the live Node-RED product counter UI (Overview)
-* [nodered_dashboard2.png](./nodered_dashboard2.png) – Screenshot of the live Node-RED product counter UI (Metrics & Controls)
+* [nodered_dashboard2.png](./nodered_dashboard2.png) – Screenshot of the live Node-RED product counter UI (Graph & Controls)
 
 ## Author
 **Trusha Tanna**  
