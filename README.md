@@ -20,22 +20,26 @@ A real-time industrial product counting and telemetry monitoring system built us
 3. The updated count is published via **MQTT** to a specific topic over Wi-Fi.
 4. **Node-RED** subscribes to the MQTT topic, processes the incoming payload, and updates the live **Node-RED Dashboard** charts and counters in real time.
 
-## Node-RED Flow & Dashboard Preview
-The MQTT telemetry pipeline and user interface were built and tested locally in Node-RED:
+## Hardware Prototype & Dashboard Preview
+The physical ESP8266 + IR sensor setup and the Node-RED telemetry dashboard:
 
-### 1. Node-RED MQTT Flow Architecture
-![Node-RED MQTT Flow](nodered_flow.png)
+### 1. Hardware Prototype Setup
+![Hardware Prototype Setup](./hardware_prototype.jpg)
 
-### 2. Live Product Counter Dashboard
-![Node-RED Product Counter Dashboard](nodered_dashboard.png)
+### 2. Node-RED MQTT Flow Architecture
+![Node-RED MQTT Flow](./nodered_flow.png)
+
+### 3. Live Product Counter Dashboard
+![Node-RED Product Counter Dashboard](./nodered_dashboard.png)
 
 ## Repository Structure
-* [Product_Counter_MQTT.ino](/Product_Counter_MQTT.ino) – ESP8266 NodeMCU code for IR detection and MQTT publishing
-* `nodered_flow.png` – Screenshot of the Node-RED MQTT flow wiring
-* `nodered_dashboard.png` – Screenshot of the live Node-RED product counter UI
+* [Product_Counter_MQTT.ino](./Product_Counter_MQTT.ino) – ESP8266 NodeMCU code for IR detection and MQTT publishing
+* [hardware_prototype.jpg](./hardware_prototype.jpg) – Photo of the ESP8266 NodeMCU and IR sensor hardware prototype
+* [nodered_flow.png](./nodered_flow.png) – Screenshot of the Node-RED MQTT flow wiring
+* [nodered_dashboard.png](./nodered_dashboard.png) – Screenshot of the live Node-RED product counter UI
 
 ## Author
 **Trusha Tanna**  
 B.E. in Electronics and Communication Engineering | Government Engineering College, Bhavnagar  
-* **Portfolio:** [View Live Portfolio](https://github.io)
+* **Portfolio:** [View Live Portfolio](https://trushatanna.github.io)
 * **Email:** trushatanna0208@gmail.com
