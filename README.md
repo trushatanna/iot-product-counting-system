@@ -30,7 +30,7 @@ The MQTT telemetry pipeline and user interface were built and tested locally in 
 ![Node-RED Product Counter Dashboard](nodered_dashboard.png)
 
 ## Repository Structure
-* [`Product_Counter_MQTT.ino`](https://github.com/trushatanna/iot-product-counting-system – ESP8266 NodeMCU code for IR detection and MQTT publishing
+* [Product_Counter_MQTT.ino](/Product_Counter_MQTT.ino) – ESP8266 NodeMCU code for IR detection and MQTT publishing
 * `nodered_flow.png` – Screenshot of the Node-RED MQTT flow wiring
 * `nodered_dashboard.png` – Screenshot of the live Node-RED product counter UI
 
